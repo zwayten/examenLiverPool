@@ -14,6 +14,9 @@
 		82DE57AF27413250005984C1 /* examenLiverPool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DE57AD27413250005984C1 /* examenLiverPool.xcdatamodeld */; };
 		82DE57B127413254005984C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DE57B027413254005984C1 /* Assets.xcassets */; };
 		82DE57B427413254005984C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DE57B227413254005984C1 /* LaunchScreen.storyboard */; };
+		82DE57BC274136E4005984C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE57BB274136E4005984C1 /* DetailViewController.swift */; };
+		82DE57BE274136F7005984C1 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE57BD274136F7005984C1 /* TopViewController.swift */; };
+		82DE57C02741370A005984C1 /* SeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE57BF2741370A005984C1 /* SeasonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		82DE57B027413254005984C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DE57B327413254005984C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DE57B527413254005984C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DE57BB274136E4005984C1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		82DE57BD274136F7005984C1 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		82DE57BF2741370A005984C1 /* SeasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				82DE57B227413254005984C1 /* LaunchScreen.storyboard */,
 				82DE57B527413254005984C1 /* Info.plist */,
 				82DE57AD27413250005984C1 /* examenLiverPool.xcdatamodeld */,
+				82DE57BB274136E4005984C1 /* DetailViewController.swift */,
+				82DE57BD274136F7005984C1 /* TopViewController.swift */,
+				82DE57BF2741370A005984C1 /* SeasonViewController.swift */,
 			);
 			path = examenLiverPool;
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DE57BE274136F7005984C1 /* TopViewController.swift in Sources */,
 				82DE57A927413250005984C1 /* ViewController.swift in Sources */,
 				82DE57A527413250005984C1 /* AppDelegate.swift in Sources */,
+				82DE57C02741370A005984C1 /* SeasonViewController.swift in Sources */,
+				82DE57BC274136E4005984C1 /* DetailViewController.swift in Sources */,
 				82DE57AF27413250005984C1 /* examenLiverPool.xcdatamodeld in Sources */,
 				82DE57A727413250005984C1 /* SceneDelegate.swift in Sources */,
 			);
